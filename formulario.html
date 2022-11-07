@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa de Interesses</title>
 </head>
+
 <body>
     <form action="http://google.com">
         <section align="center">
             <h1>Formulário de Interesses</h1>
-            <n>Digite seu nome:</n>
-            <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo">
-            <br><br>
-            <n>Digite sua profissão: </n>
-            <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
-            <br><br>
-            <n>Conte-nos um pouquinho sobre você:</n>
-            <textarea name="userComment" id="" cols="30" rows="4"></textarea>
-            <br><br>
-            <n>Você faz exercícios regularmente?</n>
-            <input type="radio" name="exercise" id="" value=1>Sim
-            <input type="radio" name="exercise" id="" value=2>Não
+            <p>Digite seu nome:
+                <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo">
+            </p>
+            <p>Digite sua profissão:
+                <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
+            </p>
+            <p>Conte-nos um pouquinho sobre você:
+                <textarea name="userComment" id="" cols="30" rows="4"></textarea>
+            </p>
+            <p>Você faz exercícios regularmente?
+                <input type="radio" name="exercise" id="" value=1>Sim
+                <input type="radio" name="exercise" id="" value=2>Não
+            </p>
             <p>Por onde você lê sobre seus tópicos favoritos?</p>
-            <input type="checkbox" name="books" id="">Livros
-            <input type="checkbox" name="web" id="">Sites
-            <input type="checkbox" name="apps" id="">Aplicativos
-            <input type="checkbox" name="magazines" id="">Revistas
-            <br><br>
-            <n>Qual gênero de filmes que você mais gosta?</n>
-            <select name="moviePref" id="">
-                <option></option>
-                <option value="1">Comédia</option>
-                <option value="2">Romance</option>
-                <option value="3">Drama</option>
-                <option value="4">Terror</option>
-                <option value="5">Ação</option>
-            </select>
-            <br><br>
+                <input type="checkbox" name="books" id="">Livros
+                <input type="checkbox" name="web" id="">Sites
+                <input type="checkbox" name="apps" id="">Aplicativos
+                <input type="checkbox" name="magazines" id="">Revistas
+            
+            <p>Qual gênero de filmes que você mais gosta?
+                <select name="moviePref" id="">
+                    <option></option>
+                    <option value="1">Comédia</option>
+                    <option value="2">Romance</option>
+                    <option value="3">Drama</option>
+                    <option value="4">Terror</option>
+                    <option value="5">Ação</option>
+                </select>
+            </p>
             <input type="submit" value="ENVIAR">
         </section>
     </form>
-    
+
 </body>
+
 </html>
