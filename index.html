@@ -58,42 +58,36 @@
         <form action="http://google.com">
             <section>
                 <h2>Formulário de Interesses</h2>
-                <p>Digite seu nome:
-                    <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo">
-                </p>
-                <p>Digite sua profissão:
-                    <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
-                </p>
-                <p>Conte-nos um pouquinho sobre você:
-                    <textarea name="userComment" id="" cols="30" rows="4"></textarea>
-                </p>
-                <p>Você faz exercícios regularmente?
-                    <input type="radio" name="exercise" id="" value=1>Sim
-                    <input type="radio" name="exercise" id="" value=2>Não
-                </p>
-                <p>Por onde você lê sobre seus tópicos favoritos?
-                    <input type="checkbox" name="books" id="">Livros
-                    <input type="checkbox" name="web" id="">Sites
-                    <input type="checkbox" name="apps" id="">Aplicativos
-                    <input type="checkbox" name="magazines" id="">Revistas
-                </p>
-                <p>Qual gênero de filmes que você mais gosta?
-                    <select name="moviePref" id="">
-                        <option></option>
-                        <option value="1">Comédia</option>
-                        <option value="2">Romance</option>
-                        <option value="3">Drama</option>
-                        <option value="4">Terror</option>
-                        <option value="5">Ação</option>
-                    </select>
-                </p>
+                <label for="userName">Digite seu nome:</label>
+                <input type="text" id="userName" name="Name" size="40" maxlength="40"
+                    placeholder="Digite seu nome completo">
+
+                <label for="userJob">Digite sua profissão:</label>
+                <input type="text" id="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
+
+                <label for="userEmail">Digite seu email:</label>
+                <input type="email" id="userEmail" size="40" maxlength="40" placeholder="Digite seu email">
+
+                <label for="indication">Conte-me um pouquinho sobre seu projeto:</label>
+                <textarea id="indication" name="userIndication" cols="30" rows="4"></textarea>
+
+                <label for="">Onde você me conheceu?</label>
+                <select name="where" id="">
+                    <option></option>
+                    <option value="1">Google</option>
+                    <option value="2">Linkedin</option>
+                    <option value="3">Instagram</option>
+                    <option value="4">Startse</option>
+                    <option value="5">Indicação</option>
+                </select>
+
                 <input id="form-button" type="submit" value="ENVIAR">
             </section>
         </form>
     </section>
 
     <footer>
-        <p>Desenvolvida por Edviges de Lima</p>
+        <p>Desenvolvida por Edviges de Lima &#129417;</p>
     </footer>
 </body>
 
