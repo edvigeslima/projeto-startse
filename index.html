@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Edviges de Lima</title>
 </head>
 
 <body>
@@ -14,8 +14,8 @@
         <header>Edviges de Lima</header>
         <section class="nav-items">
             <a href="#home">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Formulário</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#formulario">Formulário</a>
 
         </section>
     </nav>
@@ -25,8 +25,13 @@
             <div class="column-left">
                 <h1>Só projetos incríveis</h1>
                 <p>
-                    Entre em contato pelo formulário para mais sobre aplicações de excelência!
+                    Eu sou Edviges de Lima, mestra em Informática, MBA em Gestão de Projetos e bacharela em Ciência de
+                    Computação. Também eu sou uma pessoa com deficiência física.
                 </p>
+                <p>Nunca trabalhei na área de TI, mas eu tive uma AVC em 2019 e foi um divisor de águas. Eu vi que a
+                    minha área era o que eu queria sempre. Então, eu tentando a minha primeira oportunidade.</p>
+                <p>Agora, eu estou relembrando os meus conhecimentos da área de TI e estudando profundamente Python,
+                    HTML, CSS e JS.</p>
                 <a id="CTA-button" href="#">Comece agora!</a>
             </div>
             <picture>
@@ -35,43 +40,56 @@
         </div>
     </section>
 
-    <form action="http://google.com">
-        <section>
-            <h2>Formulário de Interesses</h2>
-            <p>Digite seu nome:
-                <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo">
-            </p>
-            <p>Digite sua profissão:
-                <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
-            </p>
-            <p>Conte-nos um pouquinho sobre você:
-                <textarea name="userComment" id="" cols="30" rows="4"></textarea>
-            </p>
-            <p>Você faz exercícios regularmente?
-                <input type="radio" name="exercise" id="" value=1>Sim
-                <input type="radio" name="exercise" id="" value=2>Não
-            </p>
-            <p>Por onde você lê sobre seus tópicos favoritos?
-                <input type="checkbox" name="books" id="">Livros
-                <input type="checkbox" name="web" id="">Sites
-                <input type="checkbox" name="apps" id="">Aplicativos
-                <input type="checkbox" name="magazines" id="">Revistas
-            </p>
-            <p>Qual gênero de filmes que você mais gosta?
-                <select name="moviePref" id="">
-                    <option></option>
-                    <option value="1">Comédia</option>
-                    <option value="2">Romance</option>
-                    <option value="3">Drama</option>
-                    <option value="4">Terror</option>
-                    <option value="5">Ação</option>
-                </select>
-            </p>
-            <input id="form-button"type="submit" value="ENVIAR">
-        </section>
-    </form>
+    <section id="sobre">
+        <div class="container">
+            <div class="column-left">
+                <p>
+                    Entre em contato pelo formulário para mais sobre aplicações de excelência!
+                </p>
+            </div>
+            <picture>
+                <img src="home-image.gif" alt="illustration" id="home-image">
+            </picture>
+        </div>
+    </section>
 
-
+    <section id="formulario">
+        <form action="http://google.com">
+            <section>
+                <h2>Formulário de Interesses</h2>
+                <p>Digite seu nome:
+                    <input type="text" name="userName" size="40" maxlength="40" placeholder="Digite seu nome completo">
+                </p>
+                <p>Digite sua profissão:
+                    <input type="text" name="userJob" size="40" maxlength="40" placeholder="Digite sua profissão">
+                </p>
+                <p>Conte-nos um pouquinho sobre você:
+                    <textarea name="userComment" id="" cols="30" rows="4"></textarea>
+                </p>
+                <p>Você faz exercícios regularmente?
+                    <input type="radio" name="exercise" id="" value=1>Sim
+                    <input type="radio" name="exercise" id="" value=2>Não
+                </p>
+                <p>Por onde você lê sobre seus tópicos favoritos?
+                    <input type="checkbox" name="books" id="">Livros
+                    <input type="checkbox" name="web" id="">Sites
+                    <input type="checkbox" name="apps" id="">Aplicativos
+                    <input type="checkbox" name="magazines" id="">Revistas
+                </p>
+                <p>Qual gênero de filmes que você mais gosta?
+                    <select name="moviePref" id="">
+                        <option></option>
+                        <option value="1">Comédia</option>
+                        <option value="2">Romance</option>
+                        <option value="3">Drama</option>
+                        <option value="4">Terror</option>
+                        <option value="5">Ação</option>
+                    </select>
+                </p>
+                <input id="form-button" type="submit" value="ENVIAR">
+            </section>
+        </form>
+    </section>
 </body>
 
 </html>
