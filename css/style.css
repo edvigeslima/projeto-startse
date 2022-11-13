@@ -55,6 +55,12 @@ header img {
 }
 
 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
+}
+
+h3 {
     margin-bottom: 30px;
     text-align: center;
     font-size: 2rem;
@@ -126,7 +132,9 @@ label {
 }
 
 picture {
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #form-button {
@@ -179,3 +187,6 @@ footer {
     color: #fff;
 }
 
+#linkedin {
+    text-align: center;
+}
