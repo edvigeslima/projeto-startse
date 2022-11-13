@@ -5,20 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Edviges de Lima</title>
 </head>
 
 <body>
-    <nav>
-        <header>Edviges de Lima</header>
-        <section class="nav-items">
-            <a href="#home">Home</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#formulario">Formulário</a>
+    <header>
+        <div class="container">
+            <h1><img src="img/logo_edviges.png" alt="Edviges de Lima"> </h1>
+            <section class="menu-section">
+                <div class="container-menu">
+                    <input type="checkbox" id="checkbox-menu" />
+                    <label class="menu-button-container" for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#sobre">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="#formulario">Formulário</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </div>
+    </header>
 
-        </section>
-    </nav>
 
     <section id="home">
         <div class="container">
@@ -30,26 +51,26 @@
                 <a id="CTA-button" href="#formulario">Comece agora!</a>
             </div>
             <picture>
-                <img src="home-image.gif" alt="illustration" id="home-image">
+                <img src="img/home-image.gif" alt="illustration" id="home-image">
             </picture>
         </div>
     </section>
 
     <section id="sobre">
-        <div class="container-about">
-            <div class="column-left-about">
-                <p>
+        <div class="container">
+            <div class="column-left">
+                <p class="about">
                     Eu sou <strong>Edviges de Lima</strong>, mestra em Informática, MBA em Gestão de Projetos e
                     bacharela em Ciência de
                     Computação. Também eu sou uma pessoa com deficiência física.
                 </p>
-                <p>Nunca trabalhei na área de TI, mas eu tive uma AVC em 2019 e foi um divisor de águas. Eu vi que a
+                <p class="about">Nunca trabalhei na área de TI, mas eu tive uma AVC em 2019 e foi um divisor de águas. Eu vi que a
                     minha área era o que eu queria sempre. Então, eu tentando a minha primeira oportunidade.</p>
-                <p>Agora, eu estou relembrando os meus conhecimentos da área de TI e estudando profundamente Python,
+                <p class="about">Agora, eu estou relembrando os meus conhecimentos da área de TI e estudando profundamente Python,
                     HTML, CSS e JS.</p>
             </div>
             <picture>
-                <img src="me-bitmoji.png" alt="illustration" id="home-image">
+                <img src="img/me-bitmoji.png" alt="illustration" id="about-image">
             </picture>
         </div>
     </section>

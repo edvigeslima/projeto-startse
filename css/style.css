@@ -8,36 +8,52 @@
     list-style: none;
 }
 
+html, 
 body{
-    background-color: #222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialised;   
 }
 
-nav {
-    height: 80px;
-    background-color: #4717f6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0rem 15vw;
-}
 header {
+    background-color: #4414f3;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 80px;
+    margin: auto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
     text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0 2rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: #222;
-    padding: 0 1.5rem; 
-}
-
-nav a:hover {
     color: #fff;
-    transform: 0.3s;
+    font-size: 1.2rem;
+    padding: 1.8rem;
+    transition: all 250ms linear 0s;
 }
+
+header nav ul li a:hover{
+    background: rgba(255,255,255, 0.15);
+    transition: 0.3s;
+}
+
+header img {
+    height: 60px;
+}
+
+#checkbox-menu {
+    display: none;
+}
+
 h2 {
     margin-bottom: 30px;
     text-align: center;
@@ -61,6 +77,10 @@ textarea {
     padding: 0.5rem 0.75rem;
     border-radius: 10px;
     margin-bottom: 1em;
+}
+
+a {
+    text-decoration: none;
 }
 
 label {
@@ -100,33 +120,13 @@ label {
     align-items: center;
 }
 
-.container-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 3rem 15vw;
-}
-
-.column-left-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: #fff;
-    padding: 0rem 2rem;
-}
-
-.column-left-about p {
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-    line-height: 1.5;
+.about {
+    font-size: 1rem;
     text-align: justify;
 }
 
-#home-image {
+picture {
     width: 100%;
-    height: 100%;
-
 }
 
 #form-button {
@@ -142,7 +142,7 @@ label {
 }
 
 #form-button:hover {
-    background: #E609ED/*#9502D6*/;
+    background:#9502D6;
     transition: 0.3s;
     color: #fff
 }
